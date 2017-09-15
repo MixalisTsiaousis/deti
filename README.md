@@ -1,4 +1,5 @@
-[Ai,Bi,Ci,Di] = deti(u,y)
+[Ai,Bi,Ci,Di] = deti(u,y)  
+
 Function deti(u,y) identifies a discrete-time state space system (calculates matrices A,B,C,D and system's order) using input/output measurements only. The function does not require large amount of input/output measurements in order to produce good and stable results. An amount of about 45-50 measurements is usually enough. Although, be sure you provide enough amount of input/output measurements.
 
 Input argument u: Input measurements of the system we want to identify.
